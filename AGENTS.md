@@ -2,16 +2,19 @@
 
 ## Repository role
 
-`connectors` defines and will implement Mhoo provider adapters. The current
-tree is documentation and boundary definition; it does not contain a production
-connector runtime, stored provider credentials, or configured provider calls.
+`connectors` is the conditional source boundary for provider contracts and
+accepted shared or integration-heavy adapters. Under accepted ADR-0008,
+App-local provider logic belongs with its Mhoo Twenty App and uses Twenty
+Connections by default. The current tree is documentation only; it contains no
+runtime, credential, or configured provider call.
 
 ## Sources of truth
 
 - Current Git state establishes the present implementation boundary. Do not
   describe planned Clover or Nango work as an existing runtime capability.
-- The committed Clover and Nango boundary documents provide design context;
-  cross-repository authority is governed by accepted ADRs in `../mhoo/ADR/`.
+- The committed Clover and Nango boundary documents provide historical design
+  context; ADR-0008 and the current Mhoo architecture sources govern ownership
+  and the Connections-first default.
 - Provider API behavior, scopes, receipts, and account state must be verified
   from the provider and implementation evidence when a connector is built.
 
@@ -32,13 +35,15 @@ connector runtime, stored provider credentials, or configured provider calls.
 
 - Do not manually edit a generated Mhoo context block. Run the central checker
   for context changes; verify current-state prose from this repository's tree.
-- Build one bounded provider capability at a time. Add source-level validation
-  with the implementation; do not invent runtime rules or commands before code
-  exists.
+- Build here only after a concrete requirement earns a shared adapter or
+  integration runtime and its cross-system owner is accepted. Add source-level
+  validation with the implementation; do not invent runtime rules or commands
+  before code exists.
 - Keep credential lifecycle, tenancy, retries, idempotency, and failure
   semantics explicit rather than hiding them behind a generic abstraction.
-- A new connector must not introduce an identity system, Core data-plane
-  authority, Twenty Workspace authority, or deployment/cutover authority.
+- A new connector must not introduce a generic connector platform, identity
+  system, separate data plane, Twenty Workspace authority, or
+  deployment/cutover authority.
 
 ## Architecture changes
 
