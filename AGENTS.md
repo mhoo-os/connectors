@@ -30,6 +30,8 @@ connector runtime, stored provider credentials, or configured provider calls.
 
 ## Implementation and validation
 
+- Do not manually edit a generated Mhoo context block. Run the central checker
+  for context changes; verify current-state prose from this repository's tree.
 - Build one bounded provider capability at a time. Add source-level validation
   with the implementation; do not invent runtime rules or commands before code
   exists.
