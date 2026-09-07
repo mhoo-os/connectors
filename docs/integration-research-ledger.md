@@ -1,5 +1,7 @@
 # Integration research ledger
 
+Latest: [pass 002 — Gmail/Calendar native reuse and owner corrections](integration-research-pass-002.md). This qualifies pass 001's calendar gap claim; historical findings below are retained.
+
 ## 2026-09-07 — pass 001 — Cal.com booking evidence
 
 **Decision: HOLD, 5/10. One candidate researched. No implementation recommendation.**
