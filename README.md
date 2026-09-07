@@ -40,8 +40,21 @@ credential, or external call exists. See the
 [transition note](docs/twenty-framework-transition.md) for the selection tests
 and credential-custody rules.
 
+## Working here
+
+Start with [AGENTS.md](AGENTS.md): reuse the current issue, PR, and run-ledger
+receipts before checks, verify the exact source, and obtain a scoped repo-head
+handoff. This documentation-only tree has no build or test commands; documentation
+validation is `git diff --check` plus source and link review.
+
+[Accepted ADR-0012](https://github.com/mhoo-os/mhoo/blob/abdc2be8a2adb6d979905db8bcf6a3ae6c41225c/ADR/0012-cloudflare-connector-runtime-ownership.md)
+places the Cloudflare operations control plane in
+`mhoo-os/infrastructure/cloudflare/connector-runtime/`. Shared provider semantics
+may belong here only after an accepted selection. Native Clover App work remains
+in `mhoo-twenty-next`; the folders below do not establish runtime ownership.
+
 ## Directories
 
 - `clover/` — Clover integration requirements and boundaries.
-- `nango/` — Nango abstraction and connector architecture.
+- `nango/` — historical Nango design context; not a selected implementation.
 - `docs/` — shared connector documentation.
