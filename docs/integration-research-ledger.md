@@ -1,5 +1,7 @@
 # Integration research ledger
 
+Latest: [pass 005 — Plaid existing-demand assessment](integration-research-pass-005.md).
+
 Latest: [pass 004 — existing Linear usefulness and GitHub evidence](integration-research-pass-004.md).
 
 Latest: [pass 003 — Drive/Sheets and Clover receipt reuse](integration-research-pass-003.md).
