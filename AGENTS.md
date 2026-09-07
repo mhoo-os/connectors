@@ -82,3 +82,5 @@ runtime, credential, or configured provider call.
   the central checker documented in Mhoo's README governance.
 - Classify stale branches/worktrees for the handoff; do not delete or reset them
   as cleanup. Source work does not authorize merge, deployment, or credentials.
+
+Before continuation or handoff, record the primary issue (or explicitly none), implementation-owning repository, coordinating repo head and retained worker (or none), exact source commit and PR/evidence links, existing run-ledger location, dependencies/blockers and their owners (or explicitly none/unknown), and the authorized next step. Carry this mapping into the handoff and acknowledge the authoritative instructions commit and reading path. Resolve unknown or conflicting ownership with the owning head before dependent work; a project label or issue status does not grant authority or create a new task.
