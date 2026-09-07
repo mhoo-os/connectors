@@ -1,5 +1,7 @@
 # Integration research ledger
 
+Latest: [pass 006 — LINE OA incoming context](integration-research-pass-006.md).
+
 Latest: [pass 005 — Plaid existing-demand assessment](integration-research-pass-005.md).
 
 Latest: [pass 004 — existing Linear usefulness and GitHub evidence](integration-research-pass-004.md).
