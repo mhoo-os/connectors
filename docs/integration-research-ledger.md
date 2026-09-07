@@ -1,5 +1,7 @@
 # Integration research ledger
 
+Latest: [pass 010 — Google Business Profile reviews](integration-research-pass-010.md).
+
 Latest: [pass 009 — Facebook/Instagram analytics gates](integration-research-pass-009.md).
 
 Latest: [pass 008 — LinkedIn/Indeed recruiting access](integration-research-pass-008.md).
