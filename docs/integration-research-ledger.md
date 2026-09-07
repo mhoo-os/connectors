@@ -1,5 +1,7 @@
 # Integration research ledger
 
+Latest: [pass 009 — Facebook/Instagram analytics gates](integration-research-pass-009.md).
+
 Latest: [pass 008 — LinkedIn/Indeed recruiting access](integration-research-pass-008.md).
 
 Latest: [pass 007 — existing WhatsApp app assessment](integration-research-pass-007.md).
