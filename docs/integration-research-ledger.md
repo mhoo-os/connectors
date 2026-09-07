@@ -1,5 +1,7 @@
 # Integration research ledger
 
+Latest: [pass 008 — LinkedIn/Indeed recruiting access](integration-research-pass-008.md).
+
 Latest: [pass 007 — existing WhatsApp app assessment](integration-research-pass-007.md).
 
 Latest: [pass 006 — LINE OA incoming context](integration-research-pass-006.md).
