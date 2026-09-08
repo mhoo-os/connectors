@@ -1,5 +1,7 @@
 # Integration research ledger
 
+Latest: [pass 013 — Higgsfield and X](integration-research-pass-013.md).
+
 Latest: [pass 012 — YouTube and TikTok performance](integration-research-pass-012.md).
 
 Latest: [pass 011 — selected RSS/Atom monitoring](integration-research-pass-011.md).
