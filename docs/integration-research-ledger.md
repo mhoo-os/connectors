@@ -1,5 +1,7 @@
 # Integration research ledger
 
+Targeted follow-up: [WhatsApp 0.1.2 provenance and status journey](whatsapp-012-provenance.md).
+
 Latest: [pass 014 — Twilio and Mailchimp](integration-research-pass-014.md).
 
 Latest: [pass 013 — Higgsfield and X](integration-research-pass-013.md).
